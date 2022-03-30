@@ -16,5 +16,26 @@ namespace Calculadora
         {
             InitializeComponent();
         }
+
+        private void btnDoze_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnZero_Click(object sender, EventArgs e)
+        {
+            if (txtDisplay.Text.Trim().Equals("0"))
+            {
+                txtDisplay.Text = txtDisplay.Text + ("0");
+            }
+
+            else
+            {
+                txtDisplay.Text = "0";
+            }
+
+        }
+
+      
     }
 }
